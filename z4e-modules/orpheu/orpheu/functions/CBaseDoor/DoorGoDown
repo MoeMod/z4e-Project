@@ -1,0 +1,13 @@
+{
+    "name"        : "DoorGoDown",
+    "class"       : "CBaseDoor",
+    "library"     : "mod",
+    "identifiers" :
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : "?DoorGoDown@CBaseDoor@@QAEXXZ"
+        }
+    ]
+}

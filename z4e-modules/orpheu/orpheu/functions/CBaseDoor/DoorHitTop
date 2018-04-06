@@ -1,0 +1,13 @@
+{
+    "name"        : "DoorHitTop",
+    "class"       : "CBaseDoor",
+    "library"     : "mod",
+    "identifiers" :
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : "?DoorHitTop@CBaseDoor@@QAEXXZ"
+        }
+    ]
+}

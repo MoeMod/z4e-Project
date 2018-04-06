@@ -1,0 +1,42 @@
+{
+    "name"      : "AddMultiDamage",
+    "library"   : "mod",
+    "arguments" :
+    [
+        {
+            "type"  : "entvars_s *",
+            "info"  : "pevInflictor"
+        },
+        {
+            "type"  : "CBaseEntity *",
+            "info"  : "pEntity"
+        },
+		{
+            "type"  : "float",
+            "info"  : "flDamage"
+        },
+		{
+            "type"  : "int",
+            "info"  : "bitsDamageType"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x56,0x8B,0x74,0x24,0x0C,0x85,0xF6,0x74,0x58,0xA1,"*","*",0x17,0x10,0x8B,0x4C],
+            "displacement" : 1
+        },
+		{
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x56,0x8B,0x74,0x24,0x0C,0x85,0xF6,0x74,"*",0xA1,"*","*","*","*",0x8B,0x4C,0x24,0x14,0x0B,0xC1,0x8B,0x0D,"*","*","*","*",0x3B,0xF1,0xA3]
+        },
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "AddMultiDamage"
+        }
+    ]
+}

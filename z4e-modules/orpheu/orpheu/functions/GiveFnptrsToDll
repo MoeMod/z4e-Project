@@ -1,0 +1,23 @@
+{
+    "name" : "GiveFnptrsToDll",
+    "library" : "mod",
+    "arguments" :
+    [
+        {
+            "type" : "enginefuncs_t *",
+			"info"  : "pengfuncsFromEngine"
+        },
+		{
+            "type" : "int",
+			"info"  : "pGlobals"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : "GiveFnptrsToDll"
+        }
+    ]
+}

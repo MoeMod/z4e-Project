@@ -1,0 +1,15 @@
+[
+    {
+        "name"        : "playermove_s::numphysent",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 588
+            }
+        ]
+    }
+]

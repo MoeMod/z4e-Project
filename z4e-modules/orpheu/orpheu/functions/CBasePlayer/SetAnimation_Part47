@@ -1,0 +1,19 @@
+{
+	"name" : "SetAnimation_Part47",
+	"class" : "CBasePlayer",
+	"library" : "mod",
+	"arguments" :
+	[
+		{
+			"type" : "int"
+		}
+	],
+	"identifiers" :
+	[
+		{
+			"os" : "linux",
+			"mod" : "cstrike",
+			"value" : "_ZN11CBasePlayer12SetAnimationE11PLAYER_ANIM.part.47"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "name"        : "patchSemiclipSolid",
+        "library"     : "engine",
+        "type"        : "byte",
+        "memoryType"  : "code",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : [0x83,0xF9,0x03,0x74,"*",0x8B,0x53,0x3C,0x8B,0x43,0x38,0x52,0x50,0x56,0xE8],
+				"displacement" : 2
+            }
+        ]
+    }
+]

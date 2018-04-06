@@ -1,0 +1,23 @@
+{
+    "name"      : "BuyItem",
+    "library"   : "mod",
+    "arguments" :
+    [
+        {
+            "type"  : "CBasePlayer *",
+            "info"  : "pPlayer"
+        },
+		{
+            "type"  : "int",
+            "info"  : "iSlot"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x53,0x56,0x8b,0x74,0x24,0x0c,0xbb,"*","*","*","*",0x57,0x53,0x8b,0xce,0xe8,"*","*","*","*",0x84,0xc0,0x0f,0x84]
+        }
+    ]
+}

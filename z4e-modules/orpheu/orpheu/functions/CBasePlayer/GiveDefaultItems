@@ -1,0 +1,19 @@
+{
+    "name" : "GiveDefaultItems",
+	"class" : "CBasePlayer",
+    "library" : "mod",
+    "info" : "Give default items to spawning player",
+    "identifiers" :
+    [
+        {
+            "os" : "windows",
+			"mod" : "cstrike",
+            "value" : [0x56,0x57,0x6A,"*",0x8B,"*",0xE8,"*","*","*","*",0x8B,"*","*","*","*","*",0xC6]
+        },
+        {
+            "os" : "linux",
+			"mod" : "cstrike",
+            "value" : "_ZN11CBasePlayer16GiveDefaultItemsEv"
+        }
+    ]
+}

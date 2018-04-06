@@ -1,0 +1,14 @@
+{
+    "name"        : "gpGlobals",
+    "library"     : "mod",
+    "type"        : "long",
+    "memoryType"  : "data",
+    "identifiers" :
+    [
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "gpGlobals"
+        }
+    ]
+}

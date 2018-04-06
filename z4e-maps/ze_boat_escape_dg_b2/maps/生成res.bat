@@ -1,0 +1,1 @@
+for /f "delims=" %%i in ('dir *.bsp /b') do resgen.exe %%~i -w

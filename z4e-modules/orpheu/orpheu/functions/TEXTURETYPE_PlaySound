@@ -1,0 +1,52 @@
+{
+    "name"      : "TEXTURETYPE_PlaySound",
+    "library"   : "mod",
+    "arguments" :
+    [
+        {
+            "type"  : "TraceResult *",
+            "info"  : "ptr"
+        },
+        {
+            "type"  : "float",
+            "info"  : "vecSrc.x"
+        },
+		{
+            "type"  : "float",
+            "info"  : "vecSrc.y"
+        },
+		{
+            "type"  : "float",
+            "info"  : "vecSrc.z"
+        },
+		{
+            "type"  : "float",
+            "info"  : "vecEnd.x"
+        },
+		{
+            "type"  : "float",
+            "info"  : "vecEnd.y"
+        },
+		{
+            "type"  : "float",
+            "info"  : "vecEnd.z"
+        },
+		{
+            "type"  : "int",
+            "info"  : "iBulletType"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x83,0xEC,"*",0x8B,0x0D,"*","*","*","*",0x53,0x55,0x56,0x8B,0x01,0x57]
+        },
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "TEXTURETYPE_PlaySound"
+        }
+    ]
+}

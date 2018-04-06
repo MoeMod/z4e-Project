@@ -1,0 +1,76 @@
+{
+    "name"       : "FireBullets",
+    "class"      : "CBaseEntity",
+    "library"    : "mod",
+    "arguments"  :
+    [
+        {
+            "type" : "ULONG",
+			"info" : "cShots"
+        },
+        {
+            "type" : "float",
+			"info" : "vecSrcX"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSrcY"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSrcZ"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingX"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingY"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingZ"
+        },
+        {
+            "type" : "float",
+			"info" : "vecSpreadX"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSpreadY"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSpreadZ"
+        },
+        {
+            "type" : "float",
+			"info" : "flDistance"
+        },
+        {
+            "type" : "int",
+			"info" : "iBulletType"
+        },
+		{
+            "type" : "int",
+			"info" : "iTracerFreq"
+        },
+		{
+            "type" : "int",
+			"info" : "iDamage"
+        },
+        {
+            "type" : "entvars_s *",
+			"info" : "pevAttacker"
+        }
+    ],
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x81,0xEC,"*","*","*","*",0xA1,"*","*","*","*",0x53,0x55,0x8B,0xE9,0x8B]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+[
+	"long",
+	[
+		"pointer",
+		"int",
+		"qboolean",
+		"USE_TYPE",
+		"CHalfLifeMultiplay *",
+		"CHalfLifeRules *",
+		"CMBaseEntity *",
+		"PLAYER_ANIM"
+	]
+]

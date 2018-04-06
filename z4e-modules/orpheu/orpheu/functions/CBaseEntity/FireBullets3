@@ -1,0 +1,94 @@
+{
+    "name"       : "FireBullets3",
+    "class"      : "CBaseEntity",
+    "library"    : "mod",
+    "arguments"  :
+    [
+        {
+            "type" : "Vector *",
+			"info" : "pvecReturn"
+        },
+        {
+            "type" : "float",
+			"info" : "vecSrcX"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSrcY"
+        },
+		{
+            "type" : "float",
+			"info" : "vecSrcZ"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingX"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingY"
+        },
+		{
+            "type" : "float",
+			"info" : "vecDirShootingZ"
+        },
+        {
+            "type" : "float",
+			"info" : "vecSpread"
+        },
+        {
+            "type" : "float",
+			"info" : "flDistance"
+        },
+		{
+            "type" : "int",
+			"info" : "iPenetration"
+        },
+        {
+            "type" : "int",
+			"info" : "iBulletType"
+        },
+		{
+            "type" : "int",
+			"info" : "iDamage"
+        },
+		{
+            "type" : "float",
+			"info" : "flRangeModifier"
+        },
+        {
+            "type" : "entvars_s *",
+			"info" : "pevAttacker"
+        },
+		{
+            "type" : "bool",
+			"info" : "bPistol"
+        },
+		{
+            "type" : "int",
+			"info" : "shared_rand"
+        }
+    ],
+	"return" :
+	{
+		"type" : "Vector"
+	},
+    "identifiers":
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x81,0xEC,"*","*","*","*",0x8B,0x84,"*","*","*","*","*",0x53,0x55,0x89,"*","*","*",0xA1]
+        },
+		{
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x81,"*","*","*","*","*",0x8B,0x84,"*","*","*","*","*",0x53,0x55,"*",0x89,"*","*","*",0xA1]
+        },
+		{
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : "FireBullets3__11CBaseEntityG6VectorT1ffiiifP9entvars_sbi"
+        }
+    ]
+}

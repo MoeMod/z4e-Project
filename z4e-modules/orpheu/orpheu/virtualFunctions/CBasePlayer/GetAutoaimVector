@@ -1,0 +1,24 @@
+{
+    "name" : "GetAutoaimVector",
+    "class" : "CBasePlayer",
+    "library" : "mod",	
+	"arguments" : 
+    [
+        {
+            "type" : "float"
+        }
+	],
+    "indexes" : 
+    [
+        {
+            "os" : "windows",
+            "mod" : "cstrike",
+            "value" : 85
+        },
+        {
+            "os" : "linux",
+            "mod" : "cstrike",
+            "value" : 87
+        }
+    ]
+}

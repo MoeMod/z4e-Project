@@ -1,0 +1,17 @@
+// overview description file for ze_canning.bsp
+
+global 
+{
+	ZOOM	1.01
+	ORIGIN	-700.50 	1175	-1088
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_canning.bmp"
+	HEIGHT	-1088
+}
+
+
+

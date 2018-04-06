@@ -1,0 +1,19 @@
+{
+    "name"        : "string",
+    "library"     : "mod",
+    "type"        : "string",
+    "memoryType"  : "data",
+    "identifiers" :
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : 0
+        },
+        {
+            "os"    : "linux",
+            "mod"   : "cstrike",
+            "value" : 0
+        }
+    ]
+}

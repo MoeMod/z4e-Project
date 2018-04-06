@@ -1,0 +1,38 @@
+{
+    "name" : "GetGunPosition",
+    "class" : "CBasePlayer",
+    "library" : "mod",	
+    "indexes" : 
+    [
+		{
+            "os" : "windows",
+            "mod" : "valve",
+            "value" : 119
+        },
+        {
+            "os" : "linux",
+            "mod" : "valve",
+            "value" : 119
+        },
+        {
+            "os" : "windows",
+            "mod" : "cstrike",
+            "value" : 80
+        },
+        {
+            "os" : "linux",
+            "mod" : "cstrike",
+            "value" : 80
+        },		
+		{
+            "os" : "windows",
+            "mod" : "dod",
+            "value" : 126
+        },
+        {
+            "os" : "linux",
+            "mod" : "dod",
+            "value" : 126
+        }
+    ]
+}

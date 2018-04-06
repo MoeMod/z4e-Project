@@ -1,0 +1,15 @@
+[
+    {
+        "name"        : "physent_s::iuser1",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 144
+            }
+        ]
+    }
+]

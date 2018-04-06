@@ -1,0 +1,35 @@
+{
+    "name" : "EmitSound",
+    "library" : "engine",
+    "arguments" :
+    [
+        {
+            "type" : "edict_t *",
+			"info"  : "entity"
+        },
+		{
+            "type" : "int",
+			"info"  : "channel"
+        },
+		{
+            "type" : "const char *",
+			"info"  : "sample"
+        },
+		{
+            "type" : "float",
+			"info"  : "volume"
+        },
+		{
+            "type" : "float",
+			"info"  : "attenuation"
+        },
+		{
+            "type" : "int",
+			"info"  : "flags"
+        },
+		{
+            "type" : "int",
+			"info"  : "pitch"
+        }
+	]
+}

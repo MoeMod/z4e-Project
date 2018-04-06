@@ -1,0 +1,37 @@
+{
+	"name"      : "DefaultReload",
+	"class"     : "CBasePlayerWeapon",
+	"library"   : "mod",
+	"arguments" : 
+	[
+		{
+			"type" : "int",
+			"info" : "iClipSize"
+		},
+		{
+			"type" : "int",
+			"info" : "iAnim"
+		},
+		{
+			"type" : "float",
+			"info" : "fDelay"
+		}
+	],
+	"return" :
+	{
+		"type" : "bool"
+	},
+	"identifiers" : 
+	[
+		{
+			"os"    : "windows",
+			"mod"   : "cstrike",
+			"value" : [0x56,0x8B,0xF1,0x57,0x8B,0x86,"*","*","*","*",0x8B,0x8E,"*","*","*","*",0x8B,0x8C]
+		},
+		{
+			"os"    : "windows",
+			"mod"   : "cstrike",
+			"value" : [0x56,0x8B,0xF1,0x57,0x8B,0x96,0xA4,"*","*","*",0x8B,0x86,0xC4,"*","*","*",0x8B,0x8C,0x82,0xE0,0x05,"*","*",0x85,0xC9,0x7F]
+		}
+	]
+}

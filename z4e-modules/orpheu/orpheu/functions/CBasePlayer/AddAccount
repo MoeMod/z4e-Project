@@ -1,0 +1,30 @@
+{
+    "name" : "AddAccount",
+	"class" : "CBasePlayer",
+    "library" : "mod",
+    "info" : "Give money to player",
+	"arguments" :
+	[
+		{
+			"type" : "int",
+			"info" : "iAmount"
+		},
+		{
+			"type" : "bool",
+			"info" : "bTrackChange"
+		}
+	],
+    "identifiers" :
+    [
+        {
+            "os" : "windows",
+			"mod" : "cstrike",
+            "value" : [0x8B,"*","*","*",0x56,0x8B,"*",0x8B,"*","*","*","*","*",0x03,"*",0x89]
+        },
+        {
+            "os" : "linux",
+			"mod" : "cstrike",
+            "value" : "_ZN11CBasePlayer10AddAccountEib"
+        }
+    ]
+}

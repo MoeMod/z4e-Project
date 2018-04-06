@@ -1,0 +1,25 @@
+{
+    "name"    : "TeamFull",
+    "class"   : "CHalfLifeMultiplay",
+    "library" : "mod",
+	"arguments" :
+    [
+        {
+            "type"  : "int",
+            "info"  : "team_id"
+        }
+    ],
+	"return" :
+    {
+        "type" : "int",
+        "info" : "BOOL"
+    },
+    "identifiers" : 
+    [
+        {
+            "os"    : "windows",
+            "mod"   : "cstrike",
+            "value" : [0x8B,0x44,0x24,0x04,0x56,0x48,0x74,"*",0x48,0x74,"*",0x33,0xC0,0x5E,0xC2,0x04,0x00]  
+        }
+    ]
+}

@@ -1,0 +1,560 @@
+[
+    {
+        "name"        : "glb_time",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 0
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 0
+            }
+        ]
+    },
+	{
+        "name"        : "glb_frametime",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 4
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 4
+            }
+        ]
+    },
+	{
+        "name"        : "glb_force_retouch",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 8
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 8
+            }
+        ]
+    },
+	{
+        "name"        : "glb_mapname",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 12
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 12
+            }
+        ]
+    },
+	{
+        "name"        : "glb_startspot",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 16
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 16
+            }
+        ]
+    },
+	{
+        "name"        : "glb_deathmatch",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 20
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 20
+            }
+        ]
+    },
+	{
+        "name"        : "glb_coop",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 24
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 24
+            }
+        ]
+    },
+	{
+        "name"        : "glb_teamplay",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 28
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 28
+            }
+        ]
+    },
+	{
+        "name"        : "glb_serverflags",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 32
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 32
+            }
+        ]
+    },
+	{
+        "name"        : "glb_found_secrets",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 36
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 36
+            }
+        ]
+    },
+	{
+        "name"        : "glb_v_forward",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 40
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 40
+            }
+        ]
+    },
+	{
+        "name"        : "glb_v_up",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 52
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 52
+            }
+        ]
+    },
+	{
+        "name"        : "glb_v_right",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 64
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 64
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_allsolid",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 76
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 76
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_startsolid",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 80
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 80
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_fraction",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 84
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 84
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_endpos",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 88
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 88
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_plane_normal",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 100
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 100
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_plane_dist",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 112
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 112
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_ent",
+        "type"        : "edict_s *",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 116
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 116
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_inopen",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 120
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 120
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_inwater",
+        "type"        : "float",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 124
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 124
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_hitgroup",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 128
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 128
+            }
+        ]
+    },
+	{
+        "name"        : "glb_trace_flags",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 132
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 132
+            }
+        ]
+    },
+	{
+        "name"        : "glb_msg_entity",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 136
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 136
+            }
+        ]
+    },
+	{
+        "name"        : "glb_cdAudioTrack",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 140
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 140
+            }
+        ]
+    },
+	{
+        "name"        : "glb_maxClients",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 144
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 144
+            }
+        ]
+    },
+	{
+        "name"        : "glb_maxEntities",
+        "type"        : "int",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 148
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 148
+            }
+        ]
+    },
+	{
+        "name"        : "glb_pStringBase",
+        "type"        : "const char *",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 152
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 152
+            }
+        ]
+    },
+	{
+        "name"        : "glb_pSaveData",
+        "type"        : "void *",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 156
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 156
+            }
+        ]
+    },
+	{
+        "name"        : "glb_vecLandmarkOffset",
+        "type"        : "vec3_t",
+        "memoryType"  : "data",
+        "identifiers" : 
+        [
+            {
+                "os"    : "windows",
+                "mod"   : "cstrike",
+                "value" : 160
+            },
+            {
+                "os"    : "linux",
+                "mod"   : "cstrike",
+                "value" : 160
+            }
+        ]
+    }
+]

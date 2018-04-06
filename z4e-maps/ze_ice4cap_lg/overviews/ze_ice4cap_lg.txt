@@ -1,0 +1,14 @@
+// overview description file for ze_ice4cap_lg.bsp
+
+global 
+{
+	ZOOM	1.38
+	ORIGIN	22.00 	93.00	739.00
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/ze_ice4cap_lg.bmp"
+	HEIGHT -2169
+}

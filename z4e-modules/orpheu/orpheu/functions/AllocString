@@ -1,0 +1,14 @@
+{
+    "name" : "AllocString",
+    "library" : "engine",
+    "arguments" :
+    [
+        {
+            "type" : "const char *"
+        }
+    ],
+    "return" :
+    {
+        "type" : "int"
+    }
+}
